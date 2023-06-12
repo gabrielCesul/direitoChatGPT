@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.section3{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(169, 214, 229, 0.56) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3.0vh;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    margin-left: 5.0vh;
+    margin-top: -5.0vh;
+    width: 5vw;
+    height: 8.0vh;
+}
+
+.direito{
+    font-size: 4.0vh;
+    margin-top: -4.0vh;
+    margin-left: 1.0vh;
+    color: #2F2F2F;
+    font-family: 'Poppins', sans-serif;
+}
+.gpt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.0vh;
+    margin-top: -4.0vh;
+    color: #2C7DA0
+    
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 120vh;
+    margin-top: -4.0vh;
+    gap: 2.5vh;
+
+}
+
+.login{
+    font-size: 2.0vh;
+    color: #2F2F2F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cadastro{
+    width: 10vw;
+    height: 5.5vh;
+    background: #2c7da0;
+    border-radius: 0.5vh;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vh;
+    color: white;
+}
+
+.cadastro:hover {
+    border:none!important;
+    background-color: #256c8a;
+}
+
+.img{
+    
+    width: 40vw;
+    height: 60vh;
+    margin-left:15vh;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12vw;
+    height: 7.0vh;
+    background: #2C7DA0;
+    border-radius: 0.5vh;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0vh;
+    color: white;
+}
+
+.botao:hover {
+    border:none!important;
+    background-color: #256c8a;
+}
+
+.txt{
+    font-size: 3.0vh;
+    color: #2C7DA0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    margin-top: 1.5vh ;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 5.0vh;
+}
+.txt2{
+    font-size: 8.0vh;
+    color: #2F2F2F;
+    font-family: 'Poppins', sans-serif;
+}
+.txt3{
+    font-size: 2.5vh;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+    margin-top: 2.0vh;
+}
+
+/* ************************************* 2 pagina ******************************************* */
+
+.section5{
+    display: flex;
+    flex-direction: row;
+}
+
+.img2{
+    width: 35vw;
+    height: 60vh;
+    margin-left:-8.0vh;
+}
+.img3{
+    width: 42vw;
+    height: 60vh;
+    margin-left:15vh;
+
+}
+.txt6{
+    font-size: 6.5vh;
+    color: #2F2F2F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    margin-top: 7.0vh ;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 15vh;
+}
+
+.footer{
+    width: 100%;
+    height: 5vh;
+    background: #595959;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.direito2{
+    font-size: 2.0vh;
+    color: #2F2F2F;
+    font-family: 'Poppins', sans-serif;
+}
+.gpt2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0vh;
+    color: #2C7DA0
+}
+.txtfooter{
+        font-size: 1.8vh;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 0.5vh;
+}
