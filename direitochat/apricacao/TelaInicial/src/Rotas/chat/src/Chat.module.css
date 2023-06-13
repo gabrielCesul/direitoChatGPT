@@ -1,0 +1,73 @@
+.conversa {
+    display: flex;
+    width: 65vw;
+    height: 75vh;
+    background: #E7E7E7;
+    box-shadow: 0vw 0vw 0.3vw rgba(0, 0, 0, 0.25);
+    border-radius: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem{
+    width: 58vw;
+    height: 6vh;
+    background: #E7E7E7;
+    box-shadow: 0wv 0vw 0.3vw rgba(0, 0, 0, 0.25);
+    border-radius: 2vh;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 2vh;
+    color: #000000;
+    margin-left: 2vh;
+    background-color: #E7E7E7;
+    border: none;
+}
+
+.mensagem:focus{
+    box-shadow: 0 0 0 0;
+    outline:0;
+}
+
+.letra{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 7vh;
+    color: #A0A0A0;
+}
+
+.mensagem2{
+    width: 65vw;
+    height: 6vh;
+    background: #E7E7E7;
+    box-shadow: 0wv 0vw 0.3vw rgba(0, 0, 0, 0.25);
+    border-radius: 2vh;
+    margin-top: 2.0vh; 
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+
+}
+
+.seubotao{
+    border-radius: 0.5vh;
+    background-color: #E7E7E7;
+    border: none;
+    height: 2vh;
+    width: 1.2vw;
+    margin-top: 2vh;
+}
+.seubotao:hover {
+    border:none!important;
+    background-color: #4442422c;
+}
+
+.envio{
+    width: 1.2vw;
+    height: 2vh;
+
+}
+
