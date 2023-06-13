@@ -12,8 +12,8 @@ function Telas() {
           <header >
             <div className={objeto.header}>
             <img className={objeto.logo} src={img2} />
-            <p className={objeto.direito}>Direito</p>
-            <p className={objeto.gpt}>GPT</p>
+            <h1 className={objeto.direito}>Direito</h1>
+            <h1 className={objeto.gpt}>GPT</h1>
             <div className={objeto.inicio}>
               <a href="">
               <p className={objeto.login}>Inicio</p>
