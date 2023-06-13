@@ -1,7 +1,10 @@
-import Telas from "./Telas.jsx";
+import objeto from './App.module.css';
+import Chat from './Chat';
+import Footer from './Footer';
+import Header from './Header';
 import { useState, useEffect } from 'react'; 
 import GridLoader from "react-spinners/GridLoader";
-import objeto from './App.module.css';
+
 
 function App() {
 
@@ -14,11 +17,10 @@ function App() {
     }, 800)
   }, [])
 
-
   return (
     <>
-    <div className={objeto.loader}>
-    {
+    <div className={objeto.loader} >
+      {
         loading ?(
 
         <GridLoader
@@ -31,15 +33,17 @@ function App() {
         (
           <div className={objeto.principal}>
 
-            <Telas/>
+            <Header/>
+            
+            <Chat/>
+            
+            <Footer/>
 
           </div>
         )
       }
 
-
     </div>
- 
     </>
   )
 }
