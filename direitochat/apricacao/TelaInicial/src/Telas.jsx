@@ -17,7 +17,7 @@ function Telas() {
   };
 
   const handleContact2 = () => {
-    return navigate("Simulador")
+    return navigate("Professor")
   };
 
   const handleContact3 = () => {

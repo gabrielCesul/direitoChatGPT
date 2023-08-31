@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     element : <Duvida/>
   },
   {
-    path : "Simulador",
+    path : "Professor",
     element : <Simulador/>
   },
 
