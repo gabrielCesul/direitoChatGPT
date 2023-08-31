@@ -64,7 +64,7 @@ function Telas() {
                     </a>
 
                     <a href="#juri">
-                      <button className={objeto.botao}>Juri</button>
+                      <button className={objeto.botao}>Área de professores</button>
                     </a>
 
                   </div>
@@ -109,11 +109,11 @@ function Telas() {
 
             <div className={objeto.texto}> 
 
-              <h1 className={objeto.txt6}>Simule um debate online</h1>
-              <p className={objeto.txt3}>Chegamos a área de simulação! Essa ferramenta foi desenvolvida para proporcionar uma experiência hipotética onde você pode apresentar seu caso para o júri, que é composto pela nossa inteligência artificial, e assim obter um veredito a partir das informações contidas em seu banco de dados!</p>
+              <h1 className={objeto.txt6}>Área de professores</h1>
+              <p className={objeto.txt3}>Na área de professores será possivel praticar a análise de dúvidas dos alunos, os professores conseguirão ficar atentos para identificar e compreender as principais questões que surgem em sala de aula e assim procurar melhor rendimento em sala de aula. </p>
                     
               <div className={objeto.botoes}>
-                <button onClick={handleContact2} className={objeto.botao}>Juri</button>
+                <button onClick={handleContact2} className={objeto.botao}>Área de professores</button>
               </div>
 
             </div>  
